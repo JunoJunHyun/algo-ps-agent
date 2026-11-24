@@ -1,0 +1,6 @@
+.env
+venv/
+inbox/*.pdf
+inbox/*.cpp
+__pycache__/
+.DS_Store
