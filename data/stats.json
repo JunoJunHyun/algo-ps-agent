@@ -1,0 +1,22 @@
+[
+  {
+    "problem_id": "72410",
+    "title": "신규아이디추천",
+    "url": "https://school.programmers.co.kr/learn/courses/30/lessons/72410",
+    "language": "C++",
+    "category": "String",
+    "level": "Lv.1",
+    "comment": "정규표현식 활용 7단계 문자열 처리",
+    "md_path": "solutions/String/신규아이디추천_72410_cpp.md",
+    "solved_date": "2026-11-24",
+    "assisted": true,
+    "review_status": "pending",
+    "review_due": "2026-11-27",
+    "review_done_date": null,
+    "weak_points": [
+      "제어문 블록 범위 차이: 손필기(5~6페이지)에서는 6단계 if(answer.size() > 15) 내부에 substr(0, 15)와 끝 마침표 제거(regex_replace)를 중괄호({})로 묶었으나, 실제 통과 코드에서는 중괄호가 생략되어 길이가 15 이하인 경우에도 끝 마침표 제거가 항상 실행되도록 작성됨.",
+      "정규표현식 메타문자 및 이스케이프 누락: 백지 복습(6~9페이지) 과정에서 C++ 문자열 내 백슬래시 이중 이스케이프(\\.+) 누락( .+ 또는  .+), 4단계 OR 연산자(|) 누락(^[.] [.]$), 2단계 대괄호([]) 누락 및 오기(^a-20-9--.) 등이 발생했으나 최종 코드에서 정확히 교정됨.",
+      "C++ 문법 및 로직 오기 수정: 손필기에서 헤더 닫는 꺾쇠 누락(#include <regex), 세미콜론 누락, 대소문자 오기(String, Solution), 9페이지 7단계의 잘못된 대입식(= answer.popback())이 나타났으나 통과 코드에서 표준 C++ 문법(answer += answer.back())으로 수정됨."
+    ]
+  }
+]
