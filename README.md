@@ -6,10 +6,10 @@
 
 ## 📊 학습 현황 & AI 취약점 진단
 
-- **총 해결 문제:** `1문제` (`C++` 1)
-- **유형별 분포:** `String` 1
-- **현재 취약 영역 TOP 2:** **C++-String** (5pt)
-- **마지막 동기화:** `2026-11-24`
+- **총 해결 문제:** `2문제` (`C++` 1 · `Python` 1)
+- **유형별 분포:** `String` 1 · `Brute_Force` 1
+- **현재 취약 영역 TOP 2:** **C++-String** (5pt), **Python-Brute_Force** (2pt)
+- **마지막 동기화:** `2026-11-25`
 
 ### ⏰ 3일 주기 백지 재풀이 알리미
 - 📅 2026-11-27 예정 | [신규아이디추천](https://school.programmers.co.kr/learn/courses/30/lessons/72410) (`C++` / `String`) — 통과 후 `python run.py 72410 --review-done`
@@ -20,6 +20,7 @@
 
 | 언어 | 유형 | 난이도 | 문제 | 상세 리뷰 | 핵심 한 줄 요약 (Comment) | 푼 날짜 | 복습 상태 |
 | :---: | :--- | :---: | :--- | :---: | :--- | :---: | :---: |
+| Python | Brute_Force | Lv.1 | [노란불신호등](https://school.programmers.co.kr/learn/courses/30/lessons/468371) | [리뷰](./solutions/Brute_Force/노란불신호등_468371_python.md) | 주기 최소공배수 범위 완전탐색 | 2026-11-25 | ⚪ 자력 |
 | C++ | String | Lv.1 | [신규아이디추천](https://school.programmers.co.kr/learn/courses/30/lessons/72410) | [리뷰](./solutions/String/신규아이디추천_72410_cpp.md) | 정규표현식 활용 7단계 문자열 처리 | 2026-11-24 | 🔴 대기 (11-27) |
 
 ---
