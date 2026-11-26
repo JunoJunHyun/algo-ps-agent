@@ -37,5 +37,24 @@
       "굿노트 손필기 생략 (코드 직구현 풀이)",
       "시각이 1초부터 시작하므로 0-based 인덱스(t)로 탐색 후 t + 1을 반환해야 하며, 전체 주기의 LCM 이내에 해가 없으면 이후 패턴이 반복되므로 -1을 반환함."
     ]
+  },
+  {
+    "problem_id": "468370",
+    "title": "중요한단어를스포방지",
+    "url": "https://school.programmers.co.kr/learn/courses/30/lessons/468370",
+    "language": "Python",
+    "category": "String",
+    "level": "Lv.1",
+    "comment": "구간 인덱스 매핑 및 공개순 판별",
+    "md_path": "solutions/String/중요한단어를스포방지_468370_python.md",
+    "solved_date": "2026-11-26",
+    "assisted": true,
+    "review_status": "pending",
+    "review_due": "2026-11-29",
+    "review_done_date": null,
+    "weak_points": [
+      "굿노트 손필기 생략 (코드 직구현 풀이)",
+      "한 단어가 여러 스포 방지 구간에 걸칠 수 있으므로, 단어 내 문자들이 속한 구간 번호의 최댓값(max)을 해당 단어의 최종 공개 시점으로 잡아야 함."
+    ]
   }
 ]
