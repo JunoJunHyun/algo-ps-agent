@@ -6,15 +6,16 @@
 
 ## 📊 학습 현황 & AI 취약점 진단
 
-- **총 해결 문제:** `4문제` (`Python` 3 · `C++` 1)
-- **유형별 분포:** `String` 2 · `Brute_Force` 1 · `Implementation` 1
-- **현재 취약 영역 TOP 2:** **C++-String** (5pt), **Python-String** (4pt)
-- **마지막 동기화:** `2026-11-27`
+- **총 해결 문제:** `5문제` (`Python` 4 · `C++` 1)
+- **유형별 분포:** `String` 2 · `Implementation` 2 · `Brute_Force` 1
+- **현재 취약 영역 TOP 2:** **Python-Implementation** (8pt), **C++-String** (5pt)
+- **마지막 동기화:** `2026-11-28`
 
 ### ⏰ 3일 주기 백지 재풀이 알리미
 - 🚨 **오늘 복습!** | [신규아이디추천](https://school.programmers.co.kr/learn/courses/30/lessons/72410) (`C++` / `String`) — 통과 후 `python run.py 72410 --review-done`
 - 📅 2026-11-29 예정 | [중요한단어를스포방지](https://school.programmers.co.kr/learn/courses/30/lessons/468370) (`Python` / `String`) — 통과 후 `python run.py 468370 --review-done`
 - 📅 2026-11-30 예정 | [택배상자꺼내기](https://school.programmers.co.kr/learn/courses/30/lessons/389478) (`Python` / `Implementation`) — 통과 후 `python run.py 389478 --review-done`
+- 📅 2026-12-01 예정 | [유연근무제](https://school.programmers.co.kr/learn/courses/30/lessons/388351) (`Python` / `Implementation`) — 통과 후 `python run.py 388351 --review-done`
 
 ---
 
@@ -22,6 +23,7 @@
 
 | 언어 | 유형 | 난이도 | 문제 | 상세 리뷰 | 핵심 한 줄 요약 (Comment) | 푼 날짜 | 복습 상태 |
 | :---: | :--- | :---: | :--- | :---: | :--- | :---: | :---: |
+| Python | Implementation | Lv.1 | [유연근무제](https://school.programmers.co.kr/learn/courses/30/lessons/388351) | [리뷰](./solutions/Implementation/유연근무제_388351_python.md) | 분 단위 변환 및 주말 제외 탐색 | 2026-11-28 | 🔴 대기 (12-01) |
 | Python | Implementation | Lv.1 | [택배상자꺼내기](https://school.programmers.co.kr/learn/courses/30/lessons/389478) | [리뷰](./solutions/Implementation/택배상자꺼내기_389478_python.md) | 지그재그 열 좌표 계산 카운트 | 2026-11-27 | 🔴 대기 (11-30) |
 | Python | String | Lv.1 | [중요한단어를스포방지](https://school.programmers.co.kr/learn/courses/30/lessons/468370) | [리뷰](./solutions/String/중요한단어를스포방지_468370_python.md) | 구간 인덱스 매핑 및 공개순 판별 | 2026-11-26 | 🔴 대기 (11-29) |
 | Python | Brute_Force | Lv.1 | [노란불신호등](https://school.programmers.co.kr/learn/courses/30/lessons/468371) | [리뷰](./solutions/Brute_Force/노란불신호등_468371_python.md) | 주기 최소공배수 범위 완전탐색 | 2026-11-25 | ⚪ 자력 |
